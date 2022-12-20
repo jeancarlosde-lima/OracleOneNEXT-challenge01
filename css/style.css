@@ -1,0 +1,311 @@
+    *,
+    footer {
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    
+    body {
+        background: linear-gradient(#da9af1a1, #d074d5, #5c138a);
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0 0 30px;
+    }
+    
+    h1:hover {
+        transition: 0.0s;
+        opacity: 40%;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    textarea {
+        resize: none;
+        color: rgb(35, 33, 36);
+    }
+    
+    .input-texto {
+        margin-top: 50px;
+        margin-left: 20px;
+        background-color: transparent;
+        border-color: transparent;
+        border-radius: 20px;
+    }
+    
+    .informacao {
+        margin-left: 15px;
+    }
+    
+    .mensagens-erro li::before {
+        content: url(../img/sign-emergency-code-sos_131_icon-icons.com_57207\ \(1\).png);
+        width: 15px;
+        height: 18px;
+        vertical-align: middle;
+    }
+    
+    .mensagens-erro li {
+        font-size: 17px;
+        margin-left: 25px;
+    }
+    
+    .wrapper .btn-groups {
+        width: 640px;
+        margin: 0 auto;
+    }
+    
+    .btn-codificar,
+    .btn-decodificar,
+    .btn-copiar {
+        min-width: 100px;
+        position: relative;
+        display: inline-block;
+        text-align: justify;
+        text-transform: full-width;
+        padding: 10px;
+        margin: 20px 25px;
+        font-size: 125%;
+        font-weight: 600;
+        color: #ecf0f1;
+        transition: 0.9s;
+    }
+    
+    .btn-codificar {
+        background-color: #9c0de3;
+    }
+    
+    .btn-decodificar {
+        background-color: #9c0de3;
+    }
+    
+    .btn-codificar:before {
+        position: absolute;
+        content: "";
+        border-top: 5px solid #46064e;
+        border-left: 5px solid #46064e;
+        border-right: 5px solid #520cdd;
+        border-bottom: 5px solid #520cdd;
+        top: 0px;
+        right: 1px;
+        bottom: 0px;
+        left: 0px;
+        transition: 0.9s;
+    }
+    
+    .btn-decodificar:before {
+        position: absolute;
+        content: "";
+        border-top: 5px solid #46064e;
+        border-left: 5px solid #46064e;
+        border-right: 5px solid #520cdd;
+        border-bottom: 5px solid #520cdd;
+        top: 0px;
+        right: 1px;
+        bottom: 0px;
+        left: 0px;
+        transition: 0.9s;
+    }
+    
+    .btn-codificar:hover {
+        box-shadow: 7px 7px #280541, -7px -7px #783b80;
+        cursor: pointer;
+    }
+    
+    .btn-codificar:hover::before {
+        border: 0px;
+    }
+    
+    .btn-decodificar:hover {
+        box-shadow: 7px 7px #280541, -7px -7px #783b80;
+        cursor: pointer;
+    }
+    
+    .btn-decodificar:hover::before {
+        border: 1px;
+    }
+    
+    .container {
+        background-color: rgb(255, 255, 255);
+        margin: 14px 0;
+        border-radius: 30px;
+        padding: 2rem;
+        height: 40rem;
+        text-align: center;
+        box-shadow: 12px 18px 35px #310577;
+    }
+    
+    .resultado {
+        position: relative;
+        border-color: transparent;
+        border-radius: 30px;
+        padding: 0.5rem;
+    }
+    
+    .resultado:placeholder-shown {
+        background-image: url(../img/resultado-bg.png);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    
+    .resultado:not(:placeholder-shown) {
+        background-color: white;
+    }
+    
+    .btn-copiar {
+        background-color: #9c0de3;
+    }
+    
+    .btn-copiar:before {
+        position: absolute;
+        content: "";
+        border-top: 5px solid #46064e;
+        border-left: 5px solid #46064e;
+        border-right: 5px solid #520cdd;
+        border-bottom: 5px solid #520cdd;
+        top: 0px;
+        right: 1px;
+        bottom: 0px;
+        left: 0px;
+        transition: 0.9s;
+    }
+    
+    .btn-copiar:hover {
+        box-shadow: 7px 7px #280541, -7px -7px #783b80;
+        cursor: pointer;
+    }
+    
+    .invisivel {
+        display: none;
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 9rem;
+        margin-bottom: 3rem;
+    }
+    
+    .redes {
+        display: outside;
+        font-size: 20px;
+        font-weight: serif;
+        color: white;
+    }
+    
+    .redes * {
+        vertical-align: text-top;
+        text-align: center;
+    }
+    
+    .redes p {
+        position: center;
+        font-size: 25px;
+    }
+    
+    .redes a {
+        position: center;
+        margin: 8px 25px;
+        text-decoration: rgb(255, 211, 51);
+        color: rgb(42, 3, 55);
+    }
+    
+    .redes a:hover {
+        transition: 0.5s;
+        opacity: 70%;
+        color: #efdff7;
+    }
+    
+    .credito {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    @media screen and (max-width: 820px) {
+        * {
+            font-size: 20px;
+        }
+        header {
+            display: block;
+            margin: 35px 0 0 25px;
+        }
+        .main {
+            display: inside;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .input-texto {
+            margin-top: 5rem;
+            max-width: 50%;
+            height: 20%;
+        }
+        .informacao {
+            margin: 0 auto;
+        }
+        .mensagens-erro li {
+            font-size: 18px;
+            margin: 0 auto;
+        }
+        .botoes {
+            display: inline;
+            margin: 10px auto;
+        }
+        button {
+            height: 20px;
+            font-weight: bold;
+        }
+        button:hover {
+            transition: 1.5;
+            transform: none;
+            opacity: 80%;
+        }
+        .btn-codificar,
+        .btn-decodificar,
+        .btn-copiar {
+            width: 60%;
+            margin: 15px auto;
+        }
+        .container {
+            margin: 15px auto;
+            width: 70%;
+            height: 20%;
+            padding: 1rem;
+        }
+        .resultado {
+            width: 50%;
+            height: 30%;
+        }
+        .resultado:placeholder-shown {
+            background-image: url(../img/resultado-bg-mw480.png);
+        }
+        .btn-copiar {
+            display: inside;
+            width: 5%;
+            margin: 7 auto;
+        }
+        .invisivel {
+            display: outside;
+        }
+        footer {
+            margin: 8rem auto;
+        }
+        .redes {
+            font-size: 15px;
+        }
+        .redes p {
+            margin-bottom: 15px;
+        }
+        .redes a {
+            margin: 10px;
+        }
+        .credito {
+            font-size: 50px;
+            margin-top: 25px;
+        }
+    }
