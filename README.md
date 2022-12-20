@@ -2,9 +2,8 @@ Alura Challenge
 <h1 align="center"> Codificador/Decodificador de texto</h1>
 
 Esse é o meu *primeiro* challenge do programa One Next da turma 04, com parceria da Alura Latam.
-#
+#![banner codificador e descodificador alura e oracle](https://user-images.githubusercontent.com/110063438/208782343-fb7362bd-7776-449f-9855-622edb02e170.png)
 
-![banner codificador e descodificador alura e oracle](../codificador-decodificador-main/img/readme.png)
 #
 # Descrição
 O JavaScript usei para a validação e criação da criptografia. Foquei mais no Css, fiz o máximo para deixar mais próximo do que pensei para o projeto.
